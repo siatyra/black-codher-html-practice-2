@@ -1,0 +1,32 @@
+/* CSS */
+
+
+
+body {
+
+    color: rgba(255, 166, 0, 0.753);
+    background-image: url(https://cdn.the-scientist.com/assets/articleNo/68567/aImg/41580/giraffe-1800x1260-m.png);
+}
+
+h1 {
+
+    font-family:  'Kaisei Decol', serif;
+    font-size: 80px;
+
+}
+
+main {
+
+    font-size: 50px;
+    border-radius: 30px;
+    font-family: 'Kaisei-Decol', serif;
+
+}
+
+
+@media (min-width: 480px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
