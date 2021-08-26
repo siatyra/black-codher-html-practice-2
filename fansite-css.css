@@ -1,23 +1,68 @@
 /* CSS */
 
 
-
-body {
-
-    color: rgba(255, 166, 0, 0.753);
-    background-image: url(https://cdn.the-scientist.com/assets/articleNo/68567/aImg/41580/giraffe-1800x1260-m.png);
+@media screen and (max-width: 800px) {
+    body { 
+        color: #B0E298;
+        text-decoration-color: #000;
+        font-size: 26px;
+    }
 }
+
+@media screen  and (min-width: 400px) {
+
+    body {
+      background-color: #3D3B8E;
+      text-decoration-color: #FFF;
+      font-size: 14px;
+    }
+  }
 
 h1 {
 
     font-family:  'Kaisei Decol', serif;
-    font-size: 80px;
+    font-size: 20px;
+
+}
+
+h2 {
+
+    font-family:  'Kaisei Decol', serif;
+    font-size: 20px;
+
+}
+
+h3 {
+
+    font-family:  'Kaisei Decol', serif;
+    font-size: 20px;
+
+}
+
+h4 {
+
+    font-family:  'Kaisei Decol', serif;
+    font-size: 20px;
+
+}
+
+h5 {
+
+    font-family:  'Kaisei Decol', serif;
+    font-size: 20px;
+
+}
+
+h6 {
+
+    font-family:  'Kaisei Decol', serif;
+    font-size: 20px;
 
 }
 
 main {
 
-    font-size: 50px;
+    font-size: 14px;
     border-radius: 30px;
     font-family: 'Kaisei-Decol', serif;
 
